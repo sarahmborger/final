@@ -3,18 +3,19 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header img {
-  width: 125px;
+  width: 100px;
   padding: 0px;
   border: 3px solid tan;
   border-radius: 10px;
 }
 
 header h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
   color: tan;
 }
@@ -23,7 +24,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  font-size: 150%;
+  font-size: 125%;
 }
 
 nav a {
@@ -42,9 +43,10 @@ nav a:hover {
 main {
   max-width: 80rem;
   margin: 0 auto;
-  font-size: 175%;
+  font-size: 150%;
   line-height: 2;
   padding: 10px 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 
 .background {
@@ -85,19 +87,21 @@ footer a:hover {
 
 .span3 {
   grid-column: span 3;
+    justify-self: center;
+
 }
 
 .column {
   border: 3px solid darkolivegreen;
   border-radius: 20px;
-  padding: 2rem;
+  padding: 2rem 3rem;
   background-color: antiquewhite;
 }
 
 .row {
   border: 3px solid darkolivegreen;
   border-radius: 20px;
-  padding: 2rem;
+  padding: 2rem 5rem;
   background-color: antiquewhite;
   margin: 1rem auto;
 }
@@ -110,6 +114,7 @@ footer a:hover {
   width: 300px;
   border: 3px solid darkolivegreen;
   border-radius: 20px;
+  margin: 1rem
 }
 
 .homepage {
@@ -122,7 +127,7 @@ footer a:hover {
 .rightcolumn {
   border: 3px solid darkolivegreen;
   border-radius: 20px;
-  padding: 2rem;
+  padding: 3rem 5rem;
   background-color: antiquewhite;
 }
 
@@ -139,11 +144,30 @@ footer a:hover {
   display: flex;
   justify-self: center;
   align-self: center;
+  margin-top: 4rem;
 }
 
 .rightcolumn figcaption {
   display: flex;
   justify-self: center;
   align-self: center;
+  font-size: 75%;
+}
+
+h2 {
+  background-color: tan;
+  border: 3px solid darkolivegreen;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.booking ul {
+  margin-bottom: 2.5rem;
+}
+
+.booking a {
+  font-weight: bold;
+  color: olivedrab;
 }
 
